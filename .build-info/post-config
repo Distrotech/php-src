@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mkdir -p ${3}/etc/httpd
+
+if [ ! -e /etc/httpd/httpd.conf.dest ] && [ -e /etc/httpd/httpd.conf ];then
+  cp /etc/httpd/httpd.conf /etc/httpd/httpd.conf.dest
+fi;
+
+cp /etc/httpd/httpd.conf.dest ${3}/etc/httpd/httpd.conf
