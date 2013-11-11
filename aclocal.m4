@@ -3071,7 +3071,7 @@ AC_BEFORE([$0],[AC_LIBTOOL_CXX])dnl
 LIBTOOL_DEPS="$ac_aux_dir/ltmain.sh"
 
 # Always use our own libtool.
-LIBTOOL='$(SHELL) $(top_builddir)/libtool'
+LIBTOOL='$(SHELL) $(top_builddir)/libtool --tag=CC'
 AC_SUBST(LIBTOOL)dnl
 
 # Prevent multiple expansion

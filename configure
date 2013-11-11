@@ -118334,7 +118334,7 @@ fi
 LIBTOOL_DEPS="$ac_aux_dir/ltmain.sh"
 
 # Always use our own libtool.
-LIBTOOL='$(SHELL) $(top_builddir)/libtool'
+LIBTOOL='$(SHELL) $(top_builddir)/libtool --tag=CC'
 
 # Prevent multiple expansion
 
