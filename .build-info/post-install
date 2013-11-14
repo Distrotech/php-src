@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ -e ${3}/etc/httpd/httpd.conf ];then
+  rm ${3}/etc/httpd/httpd.conf
+fi;
